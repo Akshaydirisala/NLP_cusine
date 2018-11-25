@@ -11,7 +11,7 @@ str(forrest_data)
 ####all are intezer variables along with the calssification variable 
 sum(is.na(forrest_data))##making sure there are no missing values in data
 boxplot(forrest_data$Aspect~forrest_data$Cover_Type,data = forrest_data)
-library(dplyr)
+#library(dplyr)
 ###function for subsetting the data based on the Covertype
 fs<-sort(unique(forrest_data$Cover_Type))
 
