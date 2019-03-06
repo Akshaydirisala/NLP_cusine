@@ -31,10 +31,6 @@ x1<-covertype(1)
 
 
 typeof(Soil_combination(4))
-
-
-
-
 ###############################################################
 Soil_combination<-function(N){
   forrest_label<-covertype(N)
@@ -100,20 +96,6 @@ lbls <- paste(lbls, pct) # add percents to labels
 lbls <- paste(lbls,"%",sep="") # ad % to labels 
 pie(slices,labels = lbls, col=rainbow(length(lbls)),
     main="Pie Chart of Countries")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
